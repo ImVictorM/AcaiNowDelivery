@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tipo_do_problema" label="Tipo do problema" language="en" table="x_1465196_acai_now_u_ouvidoria">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tipo_do_problema</element>
+            <help/>
+            <hint/>
+            <label>Tipo do problema</label>
+            <language>en</language>
+            <name>x_1465196_acai_now_u_ouvidoria</name>
+            <plural>Tipo do problemas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-01 17:47:25</sys_created_on>
+            <sys_id>6d8b440183b302105f04b3a6feaad3b3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Tipo do problema</sys_name>
+            <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+            <sys_update_name>sys_documentation_x_1465196_acai_now_u_ouvidoria_tipo_do_problema_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-01 19:27:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
