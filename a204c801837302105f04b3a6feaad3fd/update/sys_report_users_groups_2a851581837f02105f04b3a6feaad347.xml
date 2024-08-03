@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="">a2851581837f02105f04b3a6feaad347</report_id>
+        <report_id display_value="Pie Chart - Cask Camp LAB">a2851581837f02105f04b3a6feaad347</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-01 23:10:48</sys_created_on>

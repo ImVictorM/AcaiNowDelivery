@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="New Tab 1">d77a9a5983b782105f04b3a6feaad3c3</grid_canvas>
+        <height>9</height>
+        <portal_widget display_value="Created 2024-08-02 15:52:13">10eada5983b782105f04b3a6feaad3d3</portal_widget>
+        <posx>8</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 22:52:13</sys_created_on>
+        <sys_id>98ea169983b782105f04b3a6feaad361</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>d77a9a5983b782105f04b3a6feaad3c3</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_98ea169983b782105f04b3a6feaad361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 22:54:30</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+</record_update>

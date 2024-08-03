@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="e7846481833702105f04b3a6feaad3ce" sys_domain="global" table="x_1465196_acai_now_u_pedido" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-01 19:36:47</sys_created_on>
+            <sys_id>a384a481833702105f04b3a6feaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1465196_acai_now_u_pedido" sys_domain="global" view="Default view">e7846481833702105f04b3a6feaad3ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-01 19:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1465196_acai_now_u_pedido</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-01 19:36:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7846481833702105f04b3a6feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1465196_acai_now_u_pedido</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+            <sys_update_name>sys_ui_section_e7846481833702105f04b3a6feaad3ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-01 19:36:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</application>
+        <file_path/>
+        <instance_id>6573a4041b8d065cc8432f8dee4bcbb1</instance_id>
+        <instance_name>dev243007</instance_name>
+        <name>sys_ui_section_e7846481833702105f04b3a6feaad3ce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="e7846481833702105f04b3a6feaad3ce" sys_domain="global" table="x_1465196_acai_now_u_pedido" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 19:36:47</sys_created_on><sys_id>a384a481833702105f04b3a6feaad31c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1465196_acai_now_u_pedido" sys_domain="global" view="Default view">e7846481833702105f04b3a6feaad3ce</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 19:36:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1465196_acai_now_u_pedido</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 19:36:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e7846481833702105f04b3a6feaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1465196_acai_now_u_pedido</sys_name><sys_overrides/><sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope><sys_update_name>sys_ui_section_e7846481833702105f04b3a6feaad3ce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 19:36:46</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>802518479</payload_hash>
+        <record_name>Pedido</record_name>
+        <reverted_from/>
+        <source>ea044c45837302105f04b3a6feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 19:36:47</sys_created_on>
+        <sys_id>2384a481833702105f04b3a6feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910f71e2070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 19:36:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a784a481fb3702100cabdaee23393f1d</update_guid>
+        <update_guid_history>a784a481fb3702100cabdaee23393f1d:802518479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 22:16:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>34d66b1a35f04450896b9165ea0f1e40</sys_id>
+        <sys_metadata>e7846481833702105f04b3a6feaad3ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_parent display_value="Pedido">2dbd5c0983f302105f04b3a6feaad38d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_scope_delete display_value="">895b264045794d2ea248e6fed3915e91</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e7846481833702105f04b3a6feaad3ce</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e7846481833702105f04b3a6feaad3ce">2384a481833702105f04b3a6feaad31e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 22:16:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

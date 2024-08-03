@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Acai Now">238cca61837bc2105f04b3a6feaad325</sc_catalog>
+        <sp_portal display_value="Açaí Now">6be8626983fbc2105f04b3a6feaad3e6</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 18:34:33</sys_created_on>
+        <sys_id>eb79ea6983fbc2105f04b3a6feaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Acai Now.Açaí Now</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_eb79ea6983fbc2105f04b3a6feaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 18:34:33</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

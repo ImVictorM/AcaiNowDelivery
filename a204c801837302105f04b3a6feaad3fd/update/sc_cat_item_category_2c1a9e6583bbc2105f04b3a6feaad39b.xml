@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Sugestões/Reclamações">56a6926183bbc2105f04b3a6feaad335</sc_cat_item>
+        <sc_category display_value="Pedidos">006d4aa1837bc2105f04b3a6feaad342</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 17:27:11</sys_created_on>
+        <sys_id>2c1a9e6583bbc2105f04b3a6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pedidos.Sugestões/Reclamações</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>sc_cat_item_category_2c1a9e6583bbc2105f04b3a6feaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 17:27:11</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

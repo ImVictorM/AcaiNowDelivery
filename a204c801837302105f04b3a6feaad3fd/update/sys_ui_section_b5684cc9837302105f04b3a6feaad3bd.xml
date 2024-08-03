@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="b5684cc9837302105f04b3a6feaad3bd" sys_domain="global" table="x_1465196_acai_now_u_ouvidoria" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>tipo_do_problema</element>
+            <element>problem_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-01 17:55:36</sys_created_on>
-            <sys_id>256d80c183b302105f04b3a6feaad32a</sys_id>
+            <sys_created_on>2024-08-02 22:49:08</sys_created_on>
+            <sys_id>072ad25983b782105f04b3a6feaad32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1465196_acai_now_u_ouvidoria" sys_domain="global" view="Default view">b5684cc9837302105f04b3a6feaad3bd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-01 17:55:36</sys_updated_on>
+            <sys_updated_on>2024-08-02 22:49:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>priority</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-01 17:55:36</sys_created_on>
-            <sys_id>a96d80c183b302105f04b3a6feaad32a</sys_id>
+            <sys_created_on>2024-08-02 22:49:08</sys_created_on>
+            <sys_id>8f2ad25983b782105f04b3a6feaad32d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1465196_acai_now_u_ouvidoria" sys_domain="global" view="Default view">b5684cc9837302105f04b3a6feaad3bd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-01 17:55:36</sys_updated_on>
+            <sys_updated_on>2024-08-02 22:49:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>description</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-01 17:55:36</sys_created_on>
-            <sys_id>216d80c183b302105f04b3a6feaad32b</sys_id>
+            <sys_created_on>2024-08-02 22:49:08</sys_created_on>
+            <sys_id>072ad25983b782105f04b3a6feaad32e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1465196_acai_now_u_ouvidoria" sys_domain="global" view="Default view">b5684cc9837302105f04b3a6feaad3bd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-01 17:55:36</sys_updated_on>
+            <sys_updated_on>2024-08-02 22:49:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

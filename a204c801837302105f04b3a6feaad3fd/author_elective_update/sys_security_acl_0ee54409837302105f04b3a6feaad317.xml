@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_1465196_acai_now_u_ouvidoria</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1465196_acai_now_u_ouvidoria</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 17:22:52</sys_created_on>
+        <sys_id>0ee54409837302105f04b3a6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1465196_acai_now_u_ouvidoria</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>sys_security_acl_0ee54409837302105f04b3a6feaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 17:22:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</application>
+        <file_path/>
+        <instance_id>6573a4041b8d065cc8432f8dee4bcbb1</instance_id>
+        <instance_name>dev243007</instance_name>
+        <name>sys_security_acl_0ee54409837302105f04b3a6feaad317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Default access control on x_1465196_acai_now_u_ouvidoria</description><local_or_existing>Local</local_or_existing><name>x_1465196_acai_now_u_ouvidoria</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 17:22:52</sys_created_on><sys_id>0ee54409837302105f04b3a6feaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1465196_acai_now_u_ouvidoria</sys_name><sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope><sys_update_name>sys_security_acl_0ee54409837302105f04b3a6feaad317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 17:22:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-901681737</payload_hash>
+        <record_name>x_1465196_acai_now_u_ouvidoria</record_name>
+        <reverted_from/>
+        <source>ea044c45837302105f04b3a6feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 17:22:52</sys_created_on>
+        <sys_id>86e54409837302105f04b3a6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910ef7467d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 17:22:52</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8ae54409d6730210bfae78a5fb7aac19</update_guid>
+        <update_guid_history>8ae54409d6730210bfae78a5fb7aac19:-901681737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 17:24:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>710b429405a3430ca8395681fc233490</sys_id>
+        <sys_metadata>0ee54409837302105f04b3a6feaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1465196_acai_now_u_ouvidoria</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_parent display_value="x_1465196_acai_now_u_ouvidoria">8ee54409837302105f04b3a6feaad330</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_scope_delete display_value="">895b264045794d2ea248e6fed3915e91</sys_scope_delete>
+        <sys_update_name>sys_security_acl_0ee54409837302105f04b3a6feaad317</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_0ee54409837302105f04b3a6feaad317">86e54409837302105f04b3a6feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 17:24:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

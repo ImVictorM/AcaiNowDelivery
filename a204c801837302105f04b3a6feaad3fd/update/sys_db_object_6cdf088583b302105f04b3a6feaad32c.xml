@@ -13,7 +13,7 @@
         <label>Toppings</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1465196_acai_now_u_toppings</name>
-        <number_ref display_value="TOP">123010c583b302105f04b3a6feaad340</number_ref>
+        <number_ref display_value="TOPP">123010c583b302105f04b3a6feaad340</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

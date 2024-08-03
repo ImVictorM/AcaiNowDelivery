@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Açaí Now Delivery">71e54409837302105f04b3a6feaad301</application>
+        <filter/>
+        <name>Ouvidoria</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 17:22:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79e54409837302105f04b3a6feaad304</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ouvidoria</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>sys_ui_module_79e54409837302105f04b3a6feaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 17:49:17</sys_updated_on>
+        <table>x_1465196_acai_now_u_ouvidoria</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</application>
+        <file_path/>
+        <instance_id>6573a4041b8d065cc8432f8dee4bcbb1</instance_id>
+        <instance_name>dev243007</instance_name>
+        <name>sys_ui_module_79e54409837302105f04b3a6feaad304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Açaí Now Delivery">71e54409837302105f04b3a6feaad301</application><filter/><name>Ouvidoria</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-01 17:22:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>79e54409837302105f04b3a6feaad304</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Ouvidoria</sys_name><sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope><sys_update_name>sys_ui_module_79e54409837302105f04b3a6feaad304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-01 17:49:17</sys_updated_on><table>x_1465196_acai_now_u_ouvidoria</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-672037015</payload_hash>
+        <record_name>Ouvidoria</record_name>
+        <reverted_from/>
+        <source>ea044c45837302105f04b3a6feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 17:49:17</sys_created_on>
+        <sys_id>81fb40cd837302105f04b3a6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1910f0f77de0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 17:49:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>49fb40cdbe7302101cade6302dc7588a</update_guid>
+        <update_guid_history>49fb40cdbe7302101cade6302dc7588a:-672037015,b1e5440960730210ef1a728ac1148607:879371145</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-01 19:19:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>149ff276c9bc45ff921764ba6c581f61</sys_id>
+        <sys_metadata>79e54409837302105f04b3a6feaad304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ouvidoria</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_scope_delete display_value="">895b264045794d2ea248e6fed3915e91</sys_scope_delete>
+        <sys_update_name>sys_ui_module_79e54409837302105f04b3a6feaad304</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_79e54409837302105f04b3a6feaad304">81fb40cd837302105f04b3a6feaad38b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 19:19:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

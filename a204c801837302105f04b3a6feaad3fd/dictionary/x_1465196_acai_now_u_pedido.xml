@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2dbd5c0983f302105f04b3a6feaad38d" extends="task" label="Pedido" max_length="40" name="x_1465196_acai_now_u_pedido" type="collection">
+        <element label="Client name" max_length="120" name="client_name" type="string"/>
+        <element label="Product" mandatory="true" max_length="32" name="product" reference="x_1465196_acai_now_u_produto" type="reference"/>
+        <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+    </element>
+</database>
