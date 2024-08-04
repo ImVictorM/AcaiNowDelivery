@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="77844885837302105f04b3a6feaad381" extends="task" label="Ouvidoria" max_length="40" name="x_1465196_acai_now_u_ouvidoria" type="collection">
+    <element db_object_id="77844885837302105f04b3a6feaad381" extends="task" label="Ouvidoria" max_length="40" name="x_1465196_acai_now_u_ouvidoria" text_index="true" type="collection">
         <element label="Problem type" mandatory="true" max_length="35" name="problem_type" type="string"/>
     </element>
 </database>

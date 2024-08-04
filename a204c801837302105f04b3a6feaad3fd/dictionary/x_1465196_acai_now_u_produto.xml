@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2dcc54c583f302105f04b3a6feaad383" label="Produto" max_length="40" name="x_1465196_acai_now_u_produto" type="collection">
+    <element db_object_id="2dcc54c583f302105f04b3a6feaad383" label="Produto" max_length="40" name="x_1465196_acai_now_u_produto" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="de_marchi" label="Brand" mandatory="true" max_length="40" name="brand" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Mil&amp;Ross" value="mil_ross"/>
