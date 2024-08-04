@@ -27,7 +27,7 @@ $text-muted:#666666;
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <homepage display_value="an_index">cf6be721837306105f04b3a6feaad319</homepage>
         <icon>ac80f2e1833fc2105f04b3a6feaad36a</icon>
         <kb_knowledge_base/>
         <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
@@ -47,14 +47,14 @@ $text-muted:#666666;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:32:35</sys_created_on>
         <sys_id>6be8626983fbc2105f04b3a6feaad3e6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Açaí Now</sys_name>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name>sp_portal_6be8626983fbc2105f04b3a6feaad3e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:05:14</sys_updated_on>
+        <sys_updated_on>2024-08-03 23:24:13</sys_updated_on>
         <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
         <title>Açaí Now</title>
         <ts_index_group/>

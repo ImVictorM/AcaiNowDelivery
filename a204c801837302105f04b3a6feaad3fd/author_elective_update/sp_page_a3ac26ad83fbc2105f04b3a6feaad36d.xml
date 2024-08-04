@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>an_index</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 18:48:29</sys_created_on>
+        <sys_id>a3ac26ad83fbc2105f04b3a6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>an_index</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>sp_page_a3ac26ad83fbc2105f04b3a6feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 18:48:29</sys_updated_on>
+        <title>an_index</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=a3ac26ad83fbc2105f04b3a6feaad36d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</application>
+        <file_path/>
+        <instance_id>6573a4041b8d065cc8432f8dee4bcbb1</instance_id>
+        <instance_name>dev243007</instance_name>
+        <name>sp_page_a3ac26ad83fbc2105f04b3a6feaad36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>an_index</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-03 18:48:29</sys_created_on><sys_id>a3ac26ad83fbc2105f04b3a6feaad36d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>an_index</sys_name><sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package><sys_policy/><sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope><sys_update_name>sp_page_a3ac26ad83fbc2105f04b3a6feaad36d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-03 18:48:29</sys_updated_on><title>an_index</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=a3ac26ad83fbc2105f04b3a6feaad36d"/></record_update>]]></payload>
+        <payload_hash>1394294821</payload_hash>
+        <record_name>an_index</record_name>
+        <reverted_from/>
+        <source>50c12989837f02105f04b3a6feaad336</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 18:48:29</sys_created_on>
+        <sys_id>e7ac26ad83fbc2105f04b3a6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191199261e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 18:48:29</sys_updated_on>
+        <type>Page</type>
+        <update_guid>ebac26ad0efbc21008471f7974753d6f</update_guid>
+        <update_guid_history>ebac26ad0efbc21008471f7974753d6f:1394294821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="an_index">295baf6d833306105f04b3a6feaad3ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 23:22:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>2ca62bb90a2b4300afac3cdb26d90000</sys_id>
+        <sys_metadata>a3ac26ad83fbc2105f04b3a6feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>an_index</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_scope_delete display_value="">895b264045794d2ea248e6fed3915e91</sys_scope_delete>
+        <sys_update_name>sp_page_a3ac26ad83fbc2105f04b3a6feaad36d</sys_update_name>
+        <sys_update_version display_value="sp_page_a3ac26ad83fbc2105f04b3a6feaad36d">e7ac26ad83fbc2105f04b3a6feaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 23:22:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
-        <category>custom</category>
-        <css/>
+        <category>other</category>
+        <css>section.page {&#13;
+	background-color: $sp-homepage-bg;&#13;
+}&#13;
+section.page, main.body {&#13;
+    padding-top: 0px !important;&#13;
+}&#13;
+</css>
         <draft>false</draft>
         <dynamic_title_structure/>
         <human_readable_url_structure/>
@@ -14,18 +20,18 @@
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-03 18:48:29</sys_created_on>
-        <sys_id>a3ac26ad83fbc2105f04b3a6feaad36d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2024-08-03 23:22:36</sys_created_on>
+        <sys_id>cf6be721837306105f04b3a6feaad319</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>an_index</sys_name>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
-        <sys_update_name>sp_page_a3ac26ad83fbc2105f04b3a6feaad36d</sys_update_name>
+        <sys_update_name>sp_page_cf6be721837306105f04b3a6feaad319</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 18:48:29</sys_updated_on>
-        <title>an_index</title>
+        <sys_updated_on>2024-08-03 23:23:27</sys_updated_on>
+        <title>Home Page Açaí Now</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=a3ac26ad83fbc2105f04b3a6feaad36d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf6be721837306105f04b3a6feaad319"/>
 </record_update>
