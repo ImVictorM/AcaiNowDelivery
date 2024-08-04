@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>max_length=8</attributes>
         <cat_item display_value="Peça seu açaí">ebdd0ae1837bc2105f04b3a6feaad345</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>address</name>
-        <order>200</order>
+        <name>cep</name>
+        <order>150</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Endereço</question_text>
+        <question_text>CEP</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -56,8 +56,8 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-03 16:37:42</sys_created_on>
-        <sys_id>717e8625837bc2105f04b3a6feaad3af</sys_id>
+        <sys_created_on>2024-08-04 16:06:44</sys_created_on>
+        <sys_id>ff11177983b346105f04b3a6feaad39d</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Endereço</sys_name>
+        <sys_name>CEP</sys_name>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
-        <sys_update_name>item_option_new_717e8625837bc2105f04b3a6feaad3af</sys_update_name>
+        <sys_update_name>item_option_new_ff11177983b346105f04b3a6feaad39d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 16:40:35</sys_updated_on>
+        <sys_updated_on>2024-08-04 16:57:57</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -92,7 +92,7 @@
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex/>
+        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=717e8625837bc2105f04b3a6feaad3af"/>
-    <fx_price action="delete_multiple" query="id=717e8625837bc2105f04b3a6feaad3af"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff11177983b346105f04b3a6feaad39d"/>
+    <fx_price action="delete_multiple" query="id=ff11177983b346105f04b3a6feaad39d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="CAD">CAD</currency>
         <field>price_if_checked</field>
-        <id>717e8625837bc2105f04b3a6feaad3af</id>
+        <id>ff11177983b346105f04b3a6feaad39d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-03 16:37:42</sys_created_on>
-        <sys_id>3bbe0e25837bc2105f04b3a6feaad3bd</sys_id>
+        <sys_created_on>2024-08-04 16:06:45</sys_created_on>
+        <sys_id>5841d77983b346105f04b3a6feaad38d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 16:37:42</sys_updated_on>
+        <sys_updated_on>2024-08-04 16:06:45</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="CAD">CAD</currency>
         <field>rec_price_if_checked</field>
-        <id>717e8625837bc2105f04b3a6feaad3af</id>
+        <id>ff11177983b346105f04b3a6feaad39d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-03 16:37:42</sys_created_on>
-        <sys_id>bbbe0e25837bc2105f04b3a6feaad3bc</sys_id>
+        <sys_created_on>2024-08-04 16:06:45</sys_created_on>
+        <sys_id>cc41d77983b346105f04b3a6feaad38b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 16:37:42</sys_updated_on>
+        <sys_updated_on>2024-08-04 16:06:45</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
