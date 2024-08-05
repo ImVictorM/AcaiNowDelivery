@@ -31,9 +31,19 @@
 
 		ga.getXML(function (response) {
 			var answer = response.responseXML.documentElement.getAttribute("answer");
-			
+
+			if (!answer) {
+				g_form.addInfoMessage("Não foi possível buscar pelo CEP informado");
+				return;
+			}
+
 			var data = JSON.parse(answer);
 
+			if (data.error) {
+				g_form.addInfoMessage("O CEP informado não é valido");
+				return;
+			}
+			
 			g_form.setValue("address", data.logradouro);
 			g_form.setValue("district", data.bairro);
 			g_form.setValue("state", data.uf);
@@ -47,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4a3993f183f346105f04b3a6feaad388</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Fetch address by CEP</sys_name>
         <sys_overrides/>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
@@ -55,7 +65,7 @@
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name>catalog_script_client_4a3993f183f346105f04b3a6feaad388</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 17:35:26</sys_updated_on>
+        <sys_updated_on>2024-08-05 17:30:00</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

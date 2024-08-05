@@ -14,19 +14,20 @@ ViaCepService.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getAddressByCEP: function() {
         try {
             var r = new sn_ws.RESTMessageV2();
+			var cep = this.getParameter("sysparm_cep");
 
-			r.setEndpoint("https://viacep.com.br/ws/${cep}/json/");
+			r.setEndpoint("https://viacep.com.br/ws/" + cep + "/json/");
 			r.setHttpMethod("get");
 
-			var cep = this.getParameter("sysparm_cep");
-			
-            r.setStringParameterNoEscape('cep', cep);
-
             var response = r.execute();
+			var responseBody = response.getBody();
+
+			gs.info("Success request on getting CEP " + cep + "\nReturn body: " + responseBody + "\nCode: " + response.getStatusCode());
 			
-            return response.getBody();
+            return responseBody;
         } catch (ex) {
             var message = ex.message;
+			gs.error(message);
         }
     },
     type: 'ViaCepService'
@@ -35,13 +36,13 @@ ViaCepService.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 17:08:08</sys_created_on>
         <sys_id>6a5d9b7983f346105f04b3a6feaad3b6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>ViaCepService</sys_name>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name>sys_script_include_6a5d9b7983f346105f04b3a6feaad3b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 17:23:41</sys_updated_on>
+        <sys_updated_on>2024-08-05 16:58:54</sys_updated_on>
     </sys_script_include>
 </record_update>

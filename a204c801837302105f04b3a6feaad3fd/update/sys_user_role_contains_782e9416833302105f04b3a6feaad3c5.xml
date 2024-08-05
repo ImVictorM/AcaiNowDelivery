@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</contains>
+        <role display_value="x_1465196_acai_now.u_acainow" name="x_1465196_acai_now.u_acainow">b7cec659837782105f04b3a6feaad3fe</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 16:21:08</sys_created_on>
+        <sys_id>782e9416833302105f04b3a6feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil.x_1465196_acai_now.u_acainow</sys_name>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name>sys_user_role_contains_782e9416833302105f04b3a6feaad3c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 16:21:08</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

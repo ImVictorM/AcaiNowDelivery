@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=8793000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=181070000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>flow_de_pedidos</internal_name>
-        <label_cache>[{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.category","label":"1 - Get Catalog Variables➛topping_fruit➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"category","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Fruits","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Fruits","selected":false,"value":"fruit","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Granolas and cereals","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Granolas and cereals","selected":false,"value":"granolas_cereals","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Sweets and toppings","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Sweets and toppings","selected":false,"value":"sweets_toppings","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Other","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Other","selected":false,"value":"other","parameters":{"name":"x_1465196_acai_now_u_toppings"}}],"usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch.name","label":"1 - Get Catalog Variables➛topping_crunch➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name","label":"1 - Get Catalog Variables➛topping_other➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet.name","label":"1 - Get Catalog Variables➛topping_sweet➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.name","label":"1 - Get Catalog Variables➛topping_fruit➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other","label":"1 - Get Catalog Variables➛topping_other","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet","label":"1 - Get Catalog Variables➛topping_sweet","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch","label":"1 - Get Catalog Variables➛topping_crunch","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit","label":"1 - Get Catalog Variables➛topping_fruit","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.address","label":"1 - Get Catalog Variables➛address","reference":"","reference_display":"address","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.contact","label":"1 - Get Catalog Variables➛contact","reference":"","reference_display":"contact","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["phone"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["client_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai","label":"1 - Get Catalog Variables➛type_acai","reference":"x_1465196_acai_now_u_produto","reference_display":"Produto","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["product"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"b7f67465-158e-42c6-8fe7-801fff3140e1":["requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <label_cache>[{"name":"28ecd99a-69b0-4115-9b9c-a3a5bcc93773.record","label":"2 - Create Record➛Pedido Record","reference":"x_1465196_acai_now_u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"c9f130f4-122a-43e5-97c1-b560a0b310ff":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.category","label":"1 - Get Catalog Variables➛topping_fruit➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"category","choices":[{"label":"-- None --","used":false,"image":"","missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Fruits","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Fruits","selected":false,"value":"fruit","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Granolas and cereals","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Granolas and cereals","selected":false,"value":"granolas_cereals","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Sweets and toppings","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Sweets and toppings","selected":false,"value":"sweets_toppings","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Other","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Other","selected":false,"value":"other","parameters":{"name":"x_1465196_acai_now_u_toppings"}}],"usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch.name","label":"1 - Get Catalog Variables➛topping_crunch➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name","label":"1 - Get Catalog Variables➛topping_other➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet.name","label":"1 - Get Catalog Variables➛topping_sweet➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.name","label":"1 - Get Catalog Variables➛topping_fruit➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other","label":"1 - Get Catalog Variables➛topping_other","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet","label":"1 - Get Catalog Variables➛topping_sweet","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch","label":"1 - Get Catalog Variables➛topping_crunch","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit","label":"1 - Get Catalog Variables➛topping_fruit","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.address","label":"1 - Get Catalog Variables➛address","reference":"","reference_display":"address","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.contact","label":"1 - Get Catalog Variables➛contact","reference":"","reference_display":"contact","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["phone","client_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["client_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai","label":"1 - Get Catalog Variables➛type_acai","reference":"x_1465196_acai_now_u_produto","reference_display":"Produto","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["product"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"b7f67465-158e-42c6-8fe7-801fff3140e1":["requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
         <master_snapshot>7d3512ad837bc2105f04b3a6feaad363</master_snapshot>
         <name>Flow de pedidos</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>44a35ee9837bc2105f04b3a6feaad3db</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Flow de pedidos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name>sys_hub_flow_44a35ee9837bc2105f04b3a6feaad3db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:52</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=44a35ee9837bc2105f04b3a6feaad3db"/>
@@ -76,10 +76,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:52</sys_created_on>
         <sys_id>a435de6d837bc2105f04b3a6feaad349</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:52</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -164,14 +164,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:51</sys_created_on>
         <sys_id>14351a2d837bc2105f04b3a6feaad3ca</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -248,14 +248,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:52</sys_created_on>
         <sys_id>5835de6d837bc2105f04b3a6feaad341</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -288,10 +288,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:52</sys_created_on>
         <sys_id>a435de6d837bc2105f04b3a6feaad34f</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:26:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:20:17</sys_updated_on>
         <ui_id>b7f67465-158e-42c6-8fe7-801fff3140e1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a435de6d837bc2105f04b3a6feaad34f"/>
@@ -378,10 +378,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:52</sys_created_on>
         <sys_id>ec35de6d837bc2105f04b3a6feaad357</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:26:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:20:17</sys_updated_on>
         <ui_id>28ecd99a-69b0-4115-9b9c-a3a5bcc93773</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ec35de6d837bc2105f04b3a6feaad357"/>
@@ -418,16 +418,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:52</sys_created_on>
         <sys_id>ec35de6d837bc2105f04b3a6feaad359</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:28</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:47</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>product={{b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai}}^assignment_group={"display":"Atendimento","value":"4f1052d9837782105f04b3a6feaad3ea","sys_id":"4f1052d9837782105f04b3a6feaad3ea"}^client_name={{b7f67465-158e-42c6-8fe7-801fff3140e1.name}}^phone={{b7f67465-158e-42c6-8fe7-801fff3140e1.contact}}^state=2^assigned_to={"display":"Vicente Barros","value":"333012d9837782105f04b3a6feaad309","table":"sys_user","sys_id":"333012d9837782105f04b3a6feaad309"}^comments=Pedido confirmado.
+        <value>product={{b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai}}^assignment_group={"display":"Atendimento","value":"4f1052d9837782105f04b3a6feaad3ea","sys_id":"4f1052d9837782105f04b3a6feaad3ea"}^client_name={{b7f67465-158e-42c6-8fe7-801fff3140e1.name}}^state=2^assigned_to={"display":"Vicente Barros","value":"333012d9837782105f04b3a6feaad309","table":"sys_user","sys_id":"333012d9837782105f04b3a6feaad309"}^comments=Pedido confirmado.
 Endereço: {{b7f67465-158e-42c6-8fe7-801fff3140e1.address}}.
 Fruta: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.name}}
 Topping crocante: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch.name}}
 Doce ou cobertura: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet.name}}
-Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name}}</value>
+Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name}}^phone=+55{{b7f67465-158e-42c6-8fe7-801fff3140e1.contact}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ec35de6d837bc2105f04b3a6feaad357^sys_idNOT INac35de6d837bc2105f04b3a6feaad358"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -435,13 +435,13 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <input_name>values</input_name>
         <instance>ec35de6d837bc2105f04b3a6feaad357</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"comments":{"scriptActive":false,"savedValue":"Pedido confirmado.\nEndereço: {{b7f67465-158e-42c6-8fe7-801fff3140e1.address}}.\nFruta: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit}}\nCrocante: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch}}\nDoce ou cobertura: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet}}\nOutros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other}}"}}</script>
+        <script>{"comments":{"scriptActive":false,"savedValue":"Pedido confirmado.\nEndereço: {{b7f67465-158e-42c6-8fe7-801fff3140e1.address}}.\nFruta: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit}}\nCrocante: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch}}\nDoce ou cobertura: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet}}\nOutros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other}}"},"state":{"scriptActive":false,"savedValue":"2"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:52</sys_created_on>
         <sys_id>ac35de6d837bc2105f04b3a6feaad358</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 17:05:52</sys_updated_on>
+        <sys_updated_on>2024-08-05 18:50:23</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec35de6d837bc2105f04b3a6feaad357"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=44a35ee9837bc2105f04b3a6feaad3db"/>
@@ -512,7 +512,7 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <description>Flow para criação de pedidos baseado no catálogo de atendimento "Peça seu açaí"</description>
         <flow_priority/>
         <internal_name>flow_de_pedidos</internal_name>
-        <label_cache>[{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.category","label":"1 - Get Catalog Variables➛topping_fruit➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"category","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Fruits","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Fruits","selected":false,"value":"fruit","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Granolas and cereals","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Granolas and cereals","selected":false,"value":"granolas_cereals","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Sweets and toppings","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Sweets and toppings","selected":false,"value":"sweets_toppings","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Other","used":false,"image":"","reference":false,"missing":false,"rawLabel":"Other","selected":false,"value":"other","parameters":{"name":"x_1465196_acai_now_u_toppings"}}],"usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch.name","label":"1 - Get Catalog Variables➛topping_crunch➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name","label":"1 - Get Catalog Variables➛topping_other➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet.name","label":"1 - Get Catalog Variables➛topping_sweet➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.name","label":"1 - Get Catalog Variables➛topping_fruit➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other","label":"1 - Get Catalog Variables➛topping_other","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet","label":"1 - Get Catalog Variables➛topping_sweet","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch","label":"1 - Get Catalog Variables➛topping_crunch","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit","label":"1 - Get Catalog Variables➛topping_fruit","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.address","label":"1 - Get Catalog Variables➛address","reference":"","reference_display":"address","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.contact","label":"1 - Get Catalog Variables➛contact","reference":"","reference_display":"contact","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["phone"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["client_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai","label":"1 - Get Catalog Variables➛type_acai","reference":"x_1465196_acai_now_u_produto","reference_display":"Produto","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["product"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"b7f67465-158e-42c6-8fe7-801fff3140e1":["requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <label_cache>[{"name":"28ecd99a-69b0-4115-9b9c-a3a5bcc93773.record","label":"2 - Create Record➛Pedido Record","reference":"x_1465196_acai_now_u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"c9f130f4-122a-43e5-97c1-b560a0b310ff":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.category","label":"1 - Get Catalog Variables➛topping_fruit➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"category","choices":[{"label":"-- None --","used":false,"image":"","missing":false,"reference":false,"rawLabel":"-- None --","selected":false,"value":""},{"label":"Fruits","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Fruits","selected":false,"value":"fruit","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Granolas and cereals","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Granolas and cereals","selected":false,"value":"granolas_cereals","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Sweets and toppings","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Sweets and toppings","selected":false,"value":"sweets_toppings","parameters":{"name":"x_1465196_acai_now_u_toppings"}},{"label":"Other","used":false,"image":"","missing":false,"reference":false,"rawLabel":"Other","selected":false,"value":"other","parameters":{"name":"x_1465196_acai_now_u_toppings"}}],"usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch.name","label":"1 - Get Catalog Variables➛topping_crunch➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name","label":"1 - Get Catalog Variables➛topping_other➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet.name","label":"1 - Get Catalog Variables➛topping_sweet➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.name","label":"1 - Get Catalog Variables➛topping_fruit➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_toppings","column_name":"name","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other","label":"1 - Get Catalog Variables➛topping_other","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet","label":"1 - Get Catalog Variables➛topping_sweet","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch","label":"1 - Get Catalog Variables➛topping_crunch","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit","label":"1 - Get Catalog Variables➛topping_fruit","reference":"x_1465196_acai_now_u_toppings","reference_display":"Toppings","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.address","label":"1 - Get Catalog Variables➛address","reference":"","reference_display":"address","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["comments"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.contact","label":"1 - Get Catalog Variables➛contact","reference":"","reference_display":"contact","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["phone","client_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["client_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai","label":"1 - Get Catalog Variables➛type_acai","reference":"x_1465196_acai_now_u_produto","reference_display":"Produto","type":"reference","base_type":"reference","usedInstances":{"28ecd99a-69b0-4115-9b9c-a3a5bcc93773":["product"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"b7f67465-158e-42c6-8fe7-801fff3140e1":["requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
         <master>true</master>
         <name>Flow de pedidos</name>
         <natlang/>
@@ -529,7 +529,7 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d3512ad837bc2105f04b3a6feaad363</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -537,7 +537,7 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:51</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=7d3512ad837bc2105f04b3a6feaad363"/>
@@ -552,10 +552,10 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:02</sys_created_on>
         <sys_id>c3355aad837bc2105f04b3a6feaad30b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:35</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:52</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -640,14 +640,14 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:05:58</sys_created_on>
         <sys_id>753512ad837bc2105f04b3a6feaad366</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -724,14 +724,14 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:02</sys_created_on>
         <sys_id>7e351aad837bc2105f04b3a6feaad3f1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -764,10 +764,10 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:02</sys_created_on>
         <sys_id>0b355aad837bc2105f04b3a6feaad309</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:51</sys_updated_on>
         <ui_id>28ecd99a-69b0-4115-9b9c-a3a5bcc93773</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0b355aad837bc2105f04b3a6feaad309"/>
@@ -804,16 +804,16 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:02</sys_created_on>
         <sys_id>4f355aad837bc2105f04b3a6feaad30a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:51</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>product={{b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai}}^assignment_group={"display":"Atendimento","value":"4f1052d9837782105f04b3a6feaad3ea","sys_id":"4f1052d9837782105f04b3a6feaad3ea"}^client_name={{b7f67465-158e-42c6-8fe7-801fff3140e1.name}}^phone={{b7f67465-158e-42c6-8fe7-801fff3140e1.contact}}^state=2^assigned_to={"display":"Vicente Barros","value":"333012d9837782105f04b3a6feaad309","table":"sys_user","sys_id":"333012d9837782105f04b3a6feaad309"}^comments=Pedido confirmado.
+        <value>product={{b7f67465-158e-42c6-8fe7-801fff3140e1.type_acai}}^assignment_group={"display":"Atendimento","value":"4f1052d9837782105f04b3a6feaad3ea","sys_id":"4f1052d9837782105f04b3a6feaad3ea"}^client_name={{b7f67465-158e-42c6-8fe7-801fff3140e1.name}}^state=2^assigned_to={"display":"Vicente Barros","value":"333012d9837782105f04b3a6feaad309","table":"sys_user","sys_id":"333012d9837782105f04b3a6feaad309"}^comments=Pedido confirmado.
 Endereço: {{b7f67465-158e-42c6-8fe7-801fff3140e1.address}}.
 Fruta: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit.name}}
 Topping crocante: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch.name}}
 Doce ou cobertura: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet.name}}
-Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name}}</value>
+Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.name}}^phone=+55{{b7f67465-158e-42c6-8fe7-801fff3140e1.contact}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0b355aad837bc2105f04b3a6feaad309^sys_idNOT IN87355aad837bc2105f04b3a6feaad30a"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -821,13 +821,13 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <input_name>values</input_name>
         <instance>0b355aad837bc2105f04b3a6feaad309</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"comments":{"scriptActive":false,"savedValue":"Pedido confirmado.\nEndereço: {{b7f67465-158e-42c6-8fe7-801fff3140e1.address}}.\nFruta: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit}}\nCrocante: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch}}\nDoce ou cobertura: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet}}\nOutros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other}}"}}</script>
+        <script>{"comments":{"scriptActive":false,"savedValue":"Pedido confirmado.\nEndereço: {{b7f67465-158e-42c6-8fe7-801fff3140e1.address}}.\nFruta: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_fruit}}\nCrocante: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_crunch}}\nDoce ou cobertura: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_sweet}}\nOutros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other}}"},"state":{"scriptActive":false,"savedValue":"2"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:02</sys_created_on>
         <sys_id>87355aad837bc2105f04b3a6feaad30a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 17:06:02</sys_updated_on>
+        <sys_updated_on>2024-08-05 18:53:20</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b355aad837bc2105f04b3a6feaad309"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -846,10 +846,10 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:02</sys_created_on>
         <sys_id>fe355aad837bc2105f04b3a6feaad301</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:51</sys_updated_on>
         <ui_id>b7f67465-158e-42c6-8fe7-801fff3140e1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fe355aad837bc2105f04b3a6feaad301"/>
@@ -984,17 +984,17 @@ Outros acompanhamentos: {{b7f67465-158e-42c6-8fe7-801fff3140e1.topping_other.nam
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"83355aad837bc2105f04b3a6feaad31c","name":"plan","plan_signature":null}}</plan>
         <plan_id>44a35ee9837bc2105f04b3a6feaad3db</plan_id>
-        <snapshot>b5657ea9833fc2105f04b3a6feaad320</snapshot>
+        <snapshot>8127811e83f302105f04b3a6feaad34c</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 17:06:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83355aad837bc2105f04b3a6feaad31c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:25:34</sys_updated_on>
+        <sys_updated_on>2024-08-05 19:16:52</sys_updated_on>
         <trigger display_value="">8b355aad837bc2105f04b3a6feaad31b</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=44a35ee9837bc2105f04b3a6feaad3db"/>
