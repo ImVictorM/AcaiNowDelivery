@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=176830000,viewActivatedIn=diagramming</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=250311000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>abertura_de_reclamaes</internal_name>
-        <label_cache>[{"name":"Created_1.current.problem_type","label":"Trigger - Record Created➛Ouvidoria Record➛Problem type","reference":"","reference_display":"Problem type","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_ouvidoria","column_name":"problem_type","usedInstances":{"9513fff2-dd73-460c-ac52-27c81c2b13be":["condition"],"8ade1c68-8cfd-40f2-8087-62c66e834d0e":["condition"],"8865162d-f516-4aab-b87e-6814545da0c1":["condition"],"82a7069c-f2e0-415e-8fa5-5fc988adb12c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ouvidoria Record","reference":"x_1465196_acai_now_u_ouvidoria","reference_display":"Ouvidoria","type":"reference","base_type":"reference","usedInstances":{"73eef631-b99a-4c2d-b404-6d39d10e5c38":["record"],"7f310245-bc9e-4c23-b807-0f3a9c4d98c0":["record"],"ffa7874e-bde8-46ae-aa41-9e20d2f42817":["record"],"96f60db1-8657-4d24-9975-06816662e681":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.problem_type","label":"Trigger - Record Created➛Ouvidoria Record➛Problem type","reference":"","reference_display":"Problem type","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_ouvidoria","column_name":"problem_type","usedInstances":{"9513fff2-dd73-460c-ac52-27c81c2b13be":["condition"],"8ade1c68-8cfd-40f2-8087-62c66e834d0e":["condition"],"8865162d-f516-4aab-b87e-6814545da0c1":["condition"],"82a7069c-f2e0-415e-8fa5-5fc988adb12c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ouvidoria Record","reference":"x_1465196_acai_now_u_ouvidoria","reference_display":"Tarefa","type":"reference","base_type":"reference","usedInstances":{"73eef631-b99a-4c2d-b404-6d39d10e5c38":["record"],"7f310245-bc9e-4c23-b807-0f3a9c4d98c0":["record"],"ffa7874e-bde8-46ae-aa41-9e20d2f42817":["record"],"96f60db1-8657-4d24-9975-06816662e681":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>e967aaa583fbc2105f04b3a6feaad3f0</master_snapshot>
         <name>Abertura de reclamações</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9cf3ee6183fbc2105f04b3a6feaad34b</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Abertura de reclamações</sys_name>
         <sys_overrides/>
         <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
@@ -43,10 +43,23 @@
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name>sys_hub_flow_9cf3ee6183fbc2105f04b3a6feaad34b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9cf3ee6183fbc2105f04b3a6feaad34b"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9cf3ee6183fbc2105f04b3a6feaad34b</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:42:01</sys_created_on>
+        <sys_id>61ced16a833302105f04b3a6feaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:42:01</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
     <sys_variable_value action="delete_multiple" query="document_key=9cf3ee6183fbc2105f04b3a6feaad34b"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -80,28 +93,28 @@
         <identifier>9cf3ee6183fbc2105f04b3a6feaad34b</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-05 19:17:32</sys_created_on>
-        <sys_id>2c86c1da83f302105f04b3a6feaad306</sys_id>
+        <sys_created_on>2024-08-06 15:42:14</sys_created_on>
+        <sys_id>6cded56a833302105f04b3a6feaad368</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <trigger display_value="">c267eaa583fbc2105f04b3a6feaad3ad</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9cf3ee6183fbc2105f04b3a6feaad34b^sys_idNOT IN2c86c1da83f302105f04b3a6feaad306"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9cf3ee6183fbc2105f04b3a6feaad34b^sys_idNOT IN6cded56a833302105f04b3a6feaad368"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=9cf3ee6183fbc2105f04b3a6feaad34b^sys_idNOT IN1c3766a583fbc2105f04b3a6feaad340"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="Abertura de reclamações">9cf3ee6183fbc2105f04b3a6feaad34b</flow>
-        <name>Created</name>
+        <name>Criado em</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>1c3766a583fbc2105f04b3a6feaad340</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -188,7 +201,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
+        <label>Registro</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
         <model display_value="Abertura de reclamações">9cf3ee6183fbc2105f04b3a6feaad34b</model>
@@ -214,14 +227,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>1037ae6583fbc2105f04b3a6feaad39c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -272,7 +285,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
+        <label>Nome da tabela</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
         <model display_value="Abertura de reclamações">9cf3ee6183fbc2105f04b3a6feaad34b</model>
@@ -298,14 +311,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>dc37ae6583fbc2105f04b3a6feaad39f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -338,10 +351,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>2c3766a583fbc2105f04b3a6feaad37f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:58</sys_updated_on>
         <ui_id>96f60db1-8657-4d24-9975-06816662e681</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2c3766a583fbc2105f04b3a6feaad37f"/>
@@ -428,10 +441,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>683766a583fbc2105f04b3a6feaad34d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:58</sys_updated_on>
         <ui_id>73eef631-b99a-4c2d-b404-6d39d10e5c38</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=683766a583fbc2105f04b3a6feaad34d"/>
@@ -518,10 +531,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>683766a583fbc2105f04b3a6feaad373</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:58</sys_updated_on>
         <ui_id>ffa7874e-bde8-46ae-aa41-9e20d2f42817</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=683766a583fbc2105f04b3a6feaad373"/>
@@ -608,10 +621,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>ec3766a583fbc2105f04b3a6feaad35a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:58</sys_updated_on>
         <ui_id>7f310245-bc9e-4c23-b807-0f3a9c4d98c0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ec3766a583fbc2105f04b3a6feaad35a"/>
@@ -708,10 +721,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>203766a583fbc2105f04b3a6feaad360</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>8865162d-f516-4aab-b87e-6814545da0c1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -738,11 +751,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>e03766a583fbc2105f04b3a6feaad36f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 18:31:01</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:41:59</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Qualidade</value>
+        <value>{{Created_1.current.problem_type}}=quality</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -781,10 +794,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>203766a583fbc2105f04b3a6feaad376</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>8b853619-b32d-4035-81ad-75f594b730e0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -816,10 +829,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>6c3766a583fbc2105f04b3a6feaad353</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>8ade1c68-8cfd-40f2-8087-62c66e834d0e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -846,11 +859,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>683766a583fbc2105f04b3a6feaad356</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 18:31:01</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:41:59</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Entrega</value>
+        <value>{{Created_1.current.problem_type}}=delivery</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -890,10 +903,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>903766a583fbc2105f04b3a6feaad344</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>9513fff2-dd73-460c-ac52-27c81c2b13be</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -920,11 +933,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>903766a583fbc2105f04b3a6feaad348</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 18:29:01</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:41:59</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Atendimento</value>
+        <value>{{Created_1.current.problem_type}}=service</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -963,10 +976,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:30</sys_created_on>
         <sys_id>a03766a583fbc2105f04b3a6feaad351</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>c3013126-1dd1-4668-b865-d493629b8eb4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -997,10 +1010,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>a43766a583fbc2105f04b3a6feaad35d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>1454e60f-5c09-4943-929d-0f014cb217c8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1032,10 +1045,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>a83766a583fbc2105f04b3a6feaad378</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <ui_id>82a7069c-f2e0-415e-8fa5-5fc988adb12c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1062,11 +1075,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>a43766a583fbc2105f04b3a6feaad37b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 18:31:01</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:41:59</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Outros</value>
+        <value>{{Created_1.current.problem_type}}=other</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1105,10 +1118,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:24:31</sys_created_on>
         <sys_id>e03766a583fbc2105f04b3a6feaad382</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:15</sys_updated_on>
         <ui_id>2b9b080a-e216-4d5f-bcde-d4a72420c152</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1118,7 +1131,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=e03766a583fbc2105f04b3a6feaad382"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=9cf3ee6183fbc2105f04b3a6feaad34b"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=9cf3ee6183fbc2105f04b3a6feaad34b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9cf3ee6183fbc2105f04b3a6feaad34b^sys_idNOT IN1037ae6583fbc2105f04b3a6feaad39f,983766a583fbc2105f04b3a6feaad33d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9cf3ee6183fbc2105f04b3a6feaad34b^sys_idNOT IN1037ae6583fbc2105f04b3a6feaad39f,81ce916a833302105f04b3a6feaad3ce,983766a583fbc2105f04b3a6feaad33d,c1ce916a833302105f04b3a6feaad3ca"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -1146,6 +1159,29 @@
         <element>table_name</element>
         <help/>
         <hint/>
+        <label>Nome da tabela</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_9cf3ee6183fbc2105f04b3a6feaad34b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:41:59</sys_created_on>
+        <sys_id>81ce916a833302105f04b3a6feaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:41:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
         <label>Table Name</label>
         <language>en</language>
         <name>var__m_sys_hub_flow_input_9cf3ee6183fbc2105f04b3a6feaad34b</name>
@@ -1162,6 +1198,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-03 18:24:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Registro</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_9cf3ee6183fbc2105f04b3a6feaad34b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:41:58</sys_created_on>
+        <sys_id>c1ce916a833302105f04b3a6feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:41:58</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1182,7 +1241,7 @@
         <description>Atualiza registro com base no tipo de problema</description>
         <flow_priority/>
         <internal_name>abertura_de_reclamaes</internal_name>
-        <label_cache>[{"name":"Created_1.current.problem_type","label":"Trigger - Record Created➛Ouvidoria Record➛Problem type","reference":"","reference_display":"Problem type","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_ouvidoria","column_name":"problem_type","usedInstances":{"9513fff2-dd73-460c-ac52-27c81c2b13be":["condition"],"8ade1c68-8cfd-40f2-8087-62c66e834d0e":["condition"],"8865162d-f516-4aab-b87e-6814545da0c1":["condition"],"82a7069c-f2e0-415e-8fa5-5fc988adb12c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ouvidoria Record","reference":"x_1465196_acai_now_u_ouvidoria","reference_display":"Ouvidoria","type":"reference","base_type":"reference","usedInstances":{"73eef631-b99a-4c2d-b404-6d39d10e5c38":["record"],"7f310245-bc9e-4c23-b807-0f3a9c4d98c0":["record"],"ffa7874e-bde8-46ae-aa41-9e20d2f42817":["record"],"96f60db1-8657-4d24-9975-06816662e681":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.problem_type","label":"Trigger - Record Created➛Ouvidoria Record➛Problem type","reference":"","reference_display":"Problem type","type":"string","base_type":"string","parent_table_name":"x_1465196_acai_now_u_ouvidoria","column_name":"problem_type","usedInstances":{"9513fff2-dd73-460c-ac52-27c81c2b13be":["condition"],"8ade1c68-8cfd-40f2-8087-62c66e834d0e":["condition"],"8865162d-f516-4aab-b87e-6814545da0c1":["condition"],"82a7069c-f2e0-415e-8fa5-5fc988adb12c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Ouvidoria Record","reference":"x_1465196_acai_now_u_ouvidoria","reference_display":"Tarefa","type":"reference","base_type":"reference","usedInstances":{"73eef631-b99a-4c2d-b404-6d39d10e5c38":["record"],"7f310245-bc9e-4c23-b807-0f3a9c4d98c0":["record"],"ffa7874e-bde8-46ae-aa41-9e20d2f42817":["record"],"96f60db1-8657-4d24-9975-06816662e681":["record"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Abertura de reclamações</name>
         <natlang/>
@@ -1199,7 +1258,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e967aaa583fbc2105f04b3a6feaad3f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1207,25 +1266,38 @@
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:13</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e967aaa583fbc2105f04b3a6feaad3f0"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>e967aaa583fbc2105f04b3a6feaad3f0</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:42:13</sys_created_on>
+        <sys_id>d8de956a833302105f04b3a6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:42:13</sys_updated_on>
+        <tablename>sys_hub_flow_snapshot</tablename>
+        <value/>
+    </sys_translated_text>
     <sys_variable_value action="delete_multiple" query="document_key=e967aaa583fbc2105f04b3a6feaad3f0"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=e967aaa583fbc2105f04b3a6feaad3f0^sys_idNOT IN7567eaa583fbc2105f04b3a6feaad36c"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="Abertura de reclamações">e967aaa583fbc2105f04b3a6feaad3f0</flow>
-        <name>Created</name>
+        <name>Criado em</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>7567eaa583fbc2105f04b3a6feaad36c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1312,7 +1384,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
+        <label>Registro</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
         <model display_value="Abertura de reclamações">e967aaa583fbc2105f04b3a6feaad3f0</model>
@@ -1338,14 +1410,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:24</sys_created_on>
         <sys_id>6d67aaa583fbc2105f04b3a6feaad3f2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:29</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1396,7 +1468,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">table_name</internal_type>
-        <label>Table Name</label>
+        <label>Nome da tabela</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
         <model display_value="Abertura de reclamações">e967aaa583fbc2105f04b3a6feaad3f0</model>
@@ -1422,14 +1494,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:24</sys_created_on>
         <sys_id>e167eaa583fbc2105f04b3a6feaad321</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1462,10 +1534,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>7167eaa583fbc2105f04b3a6feaad35e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>7f310245-bc9e-4c23-b807-0f3a9c4d98c0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7167eaa583fbc2105f04b3a6feaad35e"/>
@@ -1552,10 +1624,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>7567eaa583fbc2105f04b3a6feaad36a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>96f60db1-8657-4d24-9975-06816662e681</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7567eaa583fbc2105f04b3a6feaad36a"/>
@@ -1642,10 +1714,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>f167eaa583fbc2105f04b3a6feaad364</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>ffa7874e-bde8-46ae-aa41-9e20d2f42817</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f167eaa583fbc2105f04b3a6feaad364"/>
@@ -1732,10 +1804,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>fd67eaa583fbc2105f04b3a6feaad357</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>73eef631-b99a-4c2d-b404-6d39d10e5c38</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fd67eaa583fbc2105f04b3a6feaad357"/>
@@ -1832,10 +1904,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>2967eaa583fbc2105f04b3a6feaad33f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>8ade1c68-8cfd-40f2-8087-62c66e834d0e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1862,11 +1934,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>3567eaa583fbc2105f04b3a6feaad342</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:29</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:11</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Entrega</value>
+        <value>{{Created_1.current.problem_type}}=delivery</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1905,10 +1977,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>3d67eaa583fbc2105f04b3a6feaad34f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>2b9b080a-e216-4d5f-bcde-d4a72420c152</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1940,10 +2012,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>7d67eaa583fbc2105f04b3a6feaad345</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>8865162d-f516-4aab-b87e-6814545da0c1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1970,11 +2042,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>7967eaa583fbc2105f04b3a6feaad348</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:29</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:11</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Qualidade</value>
+        <value>{{Created_1.current.problem_type}}=quality</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2014,10 +2086,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:24</sys_created_on>
         <sys_id>a567eaa583fbc2105f04b3a6feaad338</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>9513fff2-dd73-460c-ac52-27c81c2b13be</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2044,11 +2116,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>2d67eaa583fbc2105f04b3a6feaad33b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:29</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:11</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Atendimento</value>
+        <value>{{Created_1.current.problem_type}}=service</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2087,10 +2159,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>a967eaa583fbc2105f04b3a6feaad33c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>c3013126-1dd1-4668-b865-d493629b8eb4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2121,10 +2193,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>b167eaa583fbc2105f04b3a6feaad343</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>1454e60f-5c09-4943-929d-0f014cb217c8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2156,10 +2228,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>b167eaa583fbc2105f04b3a6feaad34c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>82a7069c-f2e0-415e-8fa5-5fc988adb12c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2186,11 +2258,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>bd67eaa583fbc2105f04b3a6feaad34e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:29</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:11</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created_1.current.problem_type}}=Outros</value>
+        <value>{{Created_1.current.problem_type}}=other</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -2229,10 +2301,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:25</sys_created_on>
         <sys_id>f567eaa583fbc2105f04b3a6feaad349</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:30</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:12</sys_updated_on>
         <ui_id>8b853619-b32d-4035-81ad-75f594b730e0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2242,7 +2314,30 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=f567eaa583fbc2105f04b3a6feaad349"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e967aaa583fbc2105f04b3a6feaad3f0"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=e967aaa583fbc2105f04b3a6feaad3f0"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e967aaa583fbc2105f04b3a6feaad3f0^sys_idNOT INa967eaa583fbc2105f04b3a6feaad31d,e567eaa583fbc2105f04b3a6feaad325"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e967aaa583fbc2105f04b3a6feaad3f0^sys_idNOT IN08de956a833302105f04b3a6feaad325,a967eaa583fbc2105f04b3a6feaad31d,c4de956a833302105f04b3a6feaad310,e567eaa583fbc2105f04b3a6feaad325"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Nome da tabela</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_e967aaa583fbc2105f04b3a6feaad3f0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:42:11</sys_created_on>
+        <sys_id>08de956a833302105f04b3a6feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:42:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -2263,6 +2358,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-03 18:25:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Registro</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_e967aaa583fbc2105f04b3a6feaad3f0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:42:11</sys_created_on>
+        <sys_id>c4de956a833302105f04b3a6feaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Açaí Now Delivery" source="x_1465196_acai_now">a204c801837302105f04b3a6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Açaí Now Delivery">a204c801837302105f04b3a6feaad3fd</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:42:11</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2302,17 +2420,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0667eaa583fbc2105f04b3a6feaad3af","name":"plan","plan_signature":null}}</plan>
         <plan_id>9cf3ee6183fbc2105f04b3a6feaad34b</plan_id>
-        <snapshot>e967aaa583fbc2105f04b3a6feaad3f0</snapshot>
+        <snapshot>5ffe5d6a833302105f04b3a6feaad35b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:25:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0667eaa583fbc2105f04b3a6feaad3af</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:17:32</sys_updated_on>
+        <sys_updated_on>2024-08-06 15:42:14</sys_updated_on>
         <trigger display_value="">c267eaa583fbc2105f04b3a6feaad3ad</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9cf3ee6183fbc2105f04b3a6feaad34b"/>
